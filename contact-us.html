@@ -32,9 +32,60 @@
     <nav><a href="index.html">Home</a> | <a href="gallery.html">Gallery</a> | <a href="about.html">About</a> | <a
             href="faq.html">FAQ</a> | <a href="contact-us.html">Contact Us</a></nav>
     <hr>
-    <table>
-        <caption>Before you begin look at Pulp's Awards</caption>
+
+    <table border="4" cellpadding="9">
+        <caption>Before you begin, look at Pulp's Awards</caption>
+        <thead>
+            <tr>
+                <th scope="col" abbr="Award" id="Award">Award</th>
+                <th scope="col" abbr="Year" id="Year">Year</th>
+                <th scope="col" abbr="Song-Nominated" id="Song-Nominated">Song Nominated</th>
+                <th scope="col" abbr="Outcome" id="Outcome">Outcome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td headers="Award">D&AD Awards</td>
+                <td headers="Year">1996</td>
+                <td headers="Song-Nominated">Disco 2000</td>
+                <td headers="Outcome">Won</td>
+            </tr>
+            <tr>
+                <td headers="Award">Ivor Novello Awards</td>
+                <td headers="Year">1996</td>
+                <td headers="Song-Nominated">Common People</td>
+                <td headers="Outcome">Won</td>
+            </tr>
+            <tr>
+                <td headers="Award">Mercury Prize</td>
+                <td headers="Year">1996</td>
+                <td headers="Song-Nominated">Different Class</td>
+                <td headers="Outcome">Won</td>
+            </tr>
+            <tr>
+                <td headers="Award">MVPA Awards</td>
+                <td headers="Year">1998</td>
+                <td headers="Song-Nominated">Help the Aged</td>
+                <td headers="Outcome">Won</td>
+            </tr>
+
+            <tr>
+                <td headers="Award">NME Awards</td>
+                <td headers="Year">2012</td>
+                <td headers="Song-Nominated">Themselves</td>
+                <td headers="Outcome">Won</td>
+            </tr>
+            <tr>
+                <td headers="Award">Q Awards</td>
+                <td headers="Year">2012</td>
+                <td headers="Song-Nominated">Themselves</td>
+                <td headers="Outcome">Won</td>
+            </tr>
+        </tbody>
     </table>
+
+    <p>Please take into consideration these awards before you continue.</p>
+
     <fieldset>
         <legend>
             <h2>Contact Us, We Will Get Back To You!</h2>
@@ -43,14 +94,17 @@
 
             <h3>Personal Information</h3>
             <p><label for="firstname"> First Name </label> <input type="text" id="firstname"></p>
+
             <p><label for="lastname"> Last Name </label> <input type="text" id="lastname"></p>
             <p><label for="email"> Email </label> <input type="text" id="email"></p>
+
             <p>Are you over the age of 18?</p>
             <label for="agey">Yes</label>
             <input type="radio" name="agey" id="agey" value="yes">
             <br>
             <label for="agen">No</label>
             <input type="radio" name="agen" id="agen" value="no"><br><br>
+
             <p>Select education that you have completed</p>
             <label for="highschool">High School</label>
             <input type="checkbox" name="highschool" id="highschool"><br>
@@ -59,6 +113,7 @@
             <label for="college">College</label>
             <input type="checkbox" name="college" id="college"><br>
             <hr>
+
             <p><label for="reason">Reason for Contact</label><br>
                 <select name="reason" id="reason">
                     <option value="1"> Comment </option>
@@ -67,11 +122,14 @@
                     <option value="4"> Other </option>
                 </select>
             </p>
+
             <label for="textbox">Explain below the reason for contact</label><br>
             <p><textarea name="textbox" id="textbox"></textarea></p>
+
             <input type="reset" value="ERASE EVERYTHING!!!">
 
             <p><input type="submit" value="Submit"></p>
+
         </form>
     </fieldset>
 
