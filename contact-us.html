@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/android-icon-144x144.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header>
+        <h1>Get In Contact</h1>
+    </header>
+    <nav><a href="index.html">Home</a> | <a href="gallery.html">Gallery</a> | <a href="about.html">About</a> | <a
+            href="faq.html">FAQ</a> | <a href="contact-us.html">Contact Us</a></nav>
+    <hr>
+    <table>
+        <caption>Before you begin look at Pulp's Awards</caption>
+    </table>
+    <fieldset>
+        <legend>
+            <h2>Contact Us, We Will Get Back To You!</h2>
+        </legend>
+        <form id="mailtoform" action="mailto:e3666629@student.dcccd.edu" method="post">
+
+            <h3>Personal Information</h3>
+            <p><label for="firstname"> First Name </label> <input type="text" id="firstname"></p>
+            <p><label for="lastname"> Last Name </label> <input type="text" id="lastname"></p>
+            <p><label for="email"> Email </label> <input type="text" id="email"></p>
+            <p>Are you over the age of 18?</p>
+            <label for="agey">Yes</label>
+            <input type="radio" name="agey" id="agey" value="yes">
+            <br>
+            <label for="agen">No</label>
+            <input type="radio" name="agen" id="agen" value="no"><br><br>
+            <p>Select education that you have completed</p>
+            <label for="highschool">High School</label>
+            <input type="checkbox" name="highschool" id="highschool"><br>
+            <label for="somecollege">Some College</label>
+            <input type="checkbox" name="somecollege" id="somecollege"><br>
+            <label for="college">College</label>
+            <input type="checkbox" name="college" id="college"><br>
+            <hr>
+            <p><label for="reason">Reason for Contact</label><br>
+                <select name="reason" id="reason">
+                    <option value="1"> Comment </option>
+                    <option value="2"> Question </option>
+                    <option value="3"> Concern </option>
+                    <option value="4"> Other </option>
+                </select>
+            </p>
+            <label for="textbox">Explain below the reason for contact</label><br>
+            <p><textarea name="textbox" id="textbox"></textarea></p>
+            <input type="reset" value="ERASE EVERYTHING!!!">
+
+            <p><input type="submit" value="Submit"></p>
+        </form>
+    </fieldset>
+
+
+</body>
+
+</html>
