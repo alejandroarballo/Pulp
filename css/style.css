@@ -3,7 +3,7 @@ header {
     color: rgb(4, 0, 35);
     background-image: linear-gradient(to right, rgb(163, 72, 186) , rgb(5, 228, 147));
     border-color: rgb(107, 54, 122);
-    width: 97%;
+    width: 95.5%;
     padding: 1em;
     font-size: xx-large;
 }
@@ -24,13 +24,12 @@ a:hover {
     color:rgb(138, 4, 179);
 } 
 a:active {
-    color:rgb(0, 0, 0)F;
+    color:rgb(0, 0, 0);
 }  
 body {
     background-color: rgb(170, 233, 247);
     margin-left: 25px;
     margin-right: 25px;
-    font-style: ;
 }
 footer {
     text-align: center;
