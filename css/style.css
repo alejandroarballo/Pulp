@@ -8,7 +8,7 @@ header {
 }
 nav {
     text-align: center;
-    background-color: rgb(217, 209, 238);
+    background-image: linear-gradient(to right, rgb(174, 217, 18) , rgb(222, 117, 31));
     width: 97%;
     padding: 1em;
 }
