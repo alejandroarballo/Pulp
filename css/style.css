@@ -10,7 +10,7 @@ header {
 nav {
     text-align: center;
     background-image: linear-gradient(to right, rgb(174, 217, 18) , rgb(222, 117, 31));
-    width: 97%;
+    width: 97.5%;
     padding: 1em;
     font-size: large;
 }
@@ -35,21 +35,29 @@ footer {
     text-align: center;
     background-color: rgb(217, 209, 238);
 }
+h1 {
+    
+    font-family: "Rampart One", sans-serif;
+}
 h2 {
     color: rgb(125, 78, 8);
     text-align: center;
     font-size: xx-large;
+    font-family: "Libre Baskerville", sans-serif;
 }
 ul{
     text-align: center;
     list-style-position:inside;
     font-size: large;
+    font-family: "Roboto Condensed", sans-serif;
+
 }
 hr {
     background-color: rgb(125, 78, 8);
 }
 p {
     font-size: large;
+    font-family: "Roboto Condensed", sans-serif;
 }
 #pulpmembers {
     color: rgb(6, 93, 255);

@@ -1,0 +1,16 @@
+article {
+	box-sizing: border-box;
+	height: 100%;
+	width: 700px;
+	margin: 15px;
+	padding: 50px;
+	border: 2px rgb(198, 76, 225) solid;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    text-align: center;
+}
