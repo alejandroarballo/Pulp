@@ -25,25 +25,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
     <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <header>
+    <header class="w3-animate-left">
         <h1>Get In Contact</h1>
     </header>
     <nav class="topnav">
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a class="active" href="contact-us.html">Contact</a>
-        <a href="faq.html">FAQ</a>
-     </nav>
+        <a class="fa fa-home" href="index.html"> Home</a>
+        <a class="fa fa-file-photo-o" href="gallery.html"> Gallery</a>
+        <a class="active fa fa-thumb-tack	" href="contact-us.html"> Contact</a>
+        <a class="fa fa-puzzle-piece" href="faq.html"> FAQ</a>
+    </nav>
     <hr>
-
-    <table border="4" cellpadding="9">
+    <table class="w3-striped" border="4" cellpadding="9">
         <caption>Before you begin, look at Pulp's Awards</caption>
         <thead>
-            <tr>
+            <tr class="w3-light-gray">
                 <th scope="col" abbr="Award" id="Award">Award</th>
                 <th scope="col" abbr="Year" id="Year">Year</th>
                 <th scope="col" abbr="Song-Nominated" id="Song-Nominated">Song Nominated</th>
@@ -93,7 +94,7 @@
 
     <p>Please take into consideration these awards before you continue.</p>
 
-    <fieldset>
+    <fieldset class="w3-hover-border-black">
         <legend>
             <h2>Contact Us, We Will Get Back To You!</h2>
         </legend>
@@ -105,12 +106,12 @@
             <p><label for="lastname"> Last Name </label> <input type="text" id="lastname"></p>
             <p><label for="email"> Email </label> <input type="text" id="email"></p>
 
-            <p>Are you over the age of 18?</p>
+            <p><i class="fa fa-address-card"></i> Are you over the age of 18?</p>
             <label for="agey">Yes</label>
-            <input type="radio" name="agey" id="agey" value="yes">
+            <input type="radio" name="age" id="agey" value="yes">
             <br>
             <label for="agen">No</label>
-            <input type="radio" name="agen" id="agen" value="no"><br><br>
+            <input type="radio" name="age" id="agen" value="no"><br><br>
 
             <p>Select education that you have completed</p>
             <label for="highschool">High School</label>
@@ -133,9 +134,11 @@
             <label for="textbox">Explain below the reason for contact</label><br>
             <p><textarea name="textbox" id="textbox"></textarea></p>
 
-            <input type="reset" value="ERASE EVERYTHING!!!">
+            <i class="fa fa-trash w3-xlarge"></i><input class="w3-hover-border-green w3-round-large w3-padding-small"
+                type="reset" value="ERASE EVERYTHING!!!"><i class="fa fa-trash w3-xlarge"></i>
 
-            <p><input type="submit" value="Submit"></p>
+            <p><i class="fa fa-check w3-xlarge"></i><input class="w3-hover-border-green w3-round-large w3-padding-small"
+                    type="submit" value="Submit"><i class="fa fa-check w3-xlarge"></i></p>
 
         </form>
     </fieldset>

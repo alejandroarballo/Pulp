@@ -100,3 +100,11 @@ li {
     font-size: large;
     font-family: "Roboto Condensed", sans-serif;
 }
+
+fieldset {
+    background-color: rgb(240, 238, 218);
+}
+
+table {
+    background-color: rgb(238, 173, 173);
+}
