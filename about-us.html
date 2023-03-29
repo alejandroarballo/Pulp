@@ -4,71 +4,60 @@
 <head>
   <title>About Us</title>
   <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/android-icon-144x144.png">
+  <link rel="manifest" href="favicon/manifest.json">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    body {
-      font-family: "Lato", sans-serif;
-      background-color: rgb(170, 233, 247);
-    }
-
-    .mySlides {
-      display: none;
-      background-color: purple;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
+  <header>
+    <h1>About Us</h1>
+  </header>
 
-  <!-- Navbar -->
-  <div class="w3-top">
-    <div class="w3-bar w3-black w3-card">
-      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
-        onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-      <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
-      <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-      <div class="w3-dropdown-hover w3-hide-small">
-        <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
-        <div class="w3-dropdown-content w3-bar-block w3-card-4">
-          <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-          <a href="#" class="w3-bar-item w3-button">Extras</a>
-          <a href="#" class="w3-bar-item w3-button">Media</a>
-        </div>
-      </div>
-      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
-          class="fa fa-search"></i></a>
-    </div>
-  </div>
-
-  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
-  </div>
+  <nav class="topnav">
+    <a class="fa fa-home" href="index.html">&nbsp;Home</a>
+    <a class="fa fa-file-photo-o" href="gallery.html">&nbsp;Gallery</a>
+    <a class="fa fa-thumb-tack" href="contact-us.html">&nbsp;Contact</a>
+    <a class="active fa fa-info" href="about-us.html">&nbsp;About Us</a>
+    <a class="fa fa-puzzle-piece" href="faq.html">&nbsp;FAQ</a>
+  </nav>
 
   <!-- Page content -->
   <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
     <!-- Automatic Slideshow Images -->
-    <div class="mySlides w3-display-container w3-center">
-      <img src="images/cs1.jpg" style="width:100%">
-      <div class="w3-display-bottommiddle w3-container w3-text-pink w3-padding-32 w3-hide-small">
-        <h3>Trinity River Audubon Center</h3>
-        <p><b>We had fun learning about the Audubon Center in Dallas!</b></p>
+    <div class="background-scroll mySlides w3-display-container w3-center">
+      <img src="images/cs1.jpg" alt="Picture of 20 people closely together on a bridge" style="width:100%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h2 class="w3-black margin-0">Trinity River Audubon Center</h2>
+        <p class="w3-black margin-0"><b>We had fun learning about the Audubon Center in Dallas!</b></p>
       </div>
     </div>
     <div class="mySlides w3-display-container w3-center">
-      <img src="images/cs2.jpg" style="width:100%">
-      <div class="w3-display-bottommiddle w3-container w3-text-pink w3-padding-32 w3-hide-small">
-        <h3>Trinity River Audubon Center</h3>
-        <p><b>In front of the Trinity River!</b></p>
+      <img src="images/cs2.jpg" alt="Picture of 20 people in front of the Trinity River" style="width:100%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h2 class="w3-black margin-0">Trinity River Audubon Center</h2>
+        <p class="w3-black margin-0"><b>In front of the Trinity River!</b></p>
       </div>
     </div>
 
@@ -77,8 +66,8 @@
       <h2 class="w3-wide">Alejandro Arballo</h2>
       <p class="w3-opacity"><i>I love programming and web development!</i></p>
       <p class="w3-justify">This is my first year at Dallas College and I plan to transfer to a four-year college after
-        completing my associates degree. I am currently majoring in computer science. Throughtout my educational journey I have
-        learned plenty of important things. Recently I learned about my important things like Visual Code Studio, Git
+        completing my associates degree. I am currently majoring in computer science.
+        Recently I learned about my important things like Visual Code Studio, Git
         and GitHub and their importance to coding. Althought I would study Web Development, taking this class has
         introduced me to the world of programming through this class. Here are some important things I learned
         throughout this class:</p>
@@ -101,7 +90,7 @@
     <!-- The Tour Section -->
     <div class="w3-black" id="tour">
       <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-        <h2 class="w3-wide w3-center">MY INTERESTS</h2>
+        <h2 class="w3-wide w3-center w3-text-white">MY INTERESTS</h2>
         <p class="w3-opacity w3-center"><i>This is what I enjoy!</i></p><br>
 
         <ul class="w3-ul w3-border w3-white w3-text-grey">
@@ -151,20 +140,6 @@
           <i class="fa fa-map-marker" style="width:30px"></i> Dallas, Texas <br>
           <i class="fa fa-phone" style="width:30px"></i> Phone: +214-403-6818<br>
           <i class="fa fa-envelope" style="width:30px"> </i> Email: alejandroarballo71@gmail.com<br>
-        </div>
-        <div class="w3-col m6">
-          <form action="/action_page.php" target="_blank">
-            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-              <div class="w3-half">
-                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-              </div>
-              <div class="w3-half">
-                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-              </div>
-            </div>
-            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-            <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-          </form>
         </div>
       </div>
     </div>

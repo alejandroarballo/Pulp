@@ -1,46 +1,49 @@
 header {
     text-align: center;
-    color: rgb(4, 0, 35);
-    background-image: linear-gradient(to right, rgb(163, 72, 186), rgb(5, 228, 147));
-    border-color: rgb(107, 54, 122);
-    width: 95.5%;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(110, 29, 130), rgb(5, 228, 147));
+    border-color: rgb(110, 29, 130);
+    width: 100%;
     padding: 1em;
     font-size: xx-large;
+    
 }
 
 .topnav {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     color: rgb(255, 255, 255);
     position: sticky;
     top: 0px;
+    z-index: 1;
+    border-color: rgb(0, 0, 0);
+    padding: 1px
 }
 
 .topnav a {
     float: left;
-    color: rgb(205, 165, 202);
+    color: rgb(110, 29, 130);
     text-align: left;
     padding: 25px;
     font-size: 25px;
 }
 
 .topnav a:hover {
-    background-color: rgb(218, 198, 214);
-    color: rgb(201, 109, 228);
+    background-color: rgb(255, 255, 255);
+    color: rgb(110, 29, 130);
 }
 
 a:link {
-    color: rgb(234, 164, 232);
+    color: rgb(110, 29, 130);
     text-decoration: none;
-    background-color: rgb(18, 1, 41);
 }
 
 a:visited {
-    color: rgb(206, 119, 224);
+    color: rgb(110, 29, 130);
 }
 
 .topnav a.active {
-    background-color: rgb(182, 60, 216);
+    background-color: rgb(110, 29, 130);
     color: white;
 }
 
@@ -52,7 +55,7 @@ body {
 
 footer {
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
 }
@@ -62,7 +65,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(74, 48, 8);
+    color: rgb(0, 0, 0);
     font-size: xx-large;
     font-family: "Libre Baskerville", sans-serif;
 }
@@ -75,7 +78,7 @@ ul {
 }
 
 hr {
-    background-color: rgb(125, 78, 8);
+    background-color: rgb(0, 0, 0);
 }
 
 p {
@@ -88,7 +91,7 @@ p {
 }
 
 .IMPORTANT {
-    color: rgb(150, 31, 124);
+    color: rgb(110, 29, 130);
 }
 
 dd {
@@ -107,4 +110,19 @@ fieldset {
 
 table {
     background-color: rgb(238, 173, 173);
+    border: 3px groove rgb(238, 173, 173);
+}
+
+.background-scroll {
+    z-index: 0
+}
+
+th, td {
+    padding: 10px;
+    border: thin solid rgb(0, 0, 0);
+}
+
+.margin-0
+{
+    margin: 0px;
 }
